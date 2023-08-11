@@ -43,21 +43,21 @@
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="${pageContext.request.contextPath}/images/imagen-1.jpg" alt="Capacitación 1">
+                <img src="./images/imagen-1.jpg" alt="Capacitación 1">
                 <div class="carousel-caption">
                     <h3>Capacitación en Prevención de Riesgos</h3>
                     <p>Enfocada en la industria minera</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="${pageContext.request.contextPath}/images/imagen-2.jpg" alt="Capacitación 2">
+                <img src="./images/imagen-2.jpg" alt="Capacitación 2">
                 <div class="carousel-caption">
                     <h3>Capacitación Especializada</h3>
                     <p>Asegurando un ambiente de trabajo seguro</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="${pageContext.request.contextPath}/images/imagen-3.jpg" alt="Capacitación 3">
+                <img src="./images/imagen-3.jpg" alt="Capacitación 3">
                 <div class="carousel-caption">
                     <h3>Prevención de Riesgos en Minería</h3>
                     <p>Conoce nuestras soluciones para tu empresa</p>
