@@ -1,16 +1,6 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: hecko
-  Date: 31-07-2023
-  Time: 21:28
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<div class="container">
 
-</body>
-</html>
+    <footer class="footer mt-auto" data-bs-theme="dark" style="position:fixed; bottom: 0;">
+        Victor Rivas | Hector Komori | Joaquin de la Huerta | Alan Vera - Julio de 2023
+    </footer>
+</div>
