@@ -72,7 +72,7 @@
                 <label for="cantAsistentes" class="form-label">Cantidad de Asistentes</label>
                 <input type="number" class="form-control" id="cantAsistentes" name="cantAsistentes" required>
             </div>
-            <button type="submit" id="submit" class="btn btn-primary btn-sm disabled">Crear</button>
+            <button type="submit" id="submit" class="btn btn-primary btn-sm">Crear</button>
         </form>
 
         <br/>

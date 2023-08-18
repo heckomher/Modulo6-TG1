@@ -13,7 +13,7 @@ import java.io.Serial;
 /**
  * Servlet implementation class Inicio
  */
-@WebServlet(name="inicio" , value="/")
+@WebServlet(name="inicio" , value="/inicio")
 public class Inicio extends HttpServlet {
     @Serial
     private static final long serialVersionUID = 1L;
