@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * Servlet implementation class Inicio
  */
-@WebServlet(name="inicio" , value="/inicio")
+@WebServlet(name="inicio" , value="/")
 public class Inicio extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
