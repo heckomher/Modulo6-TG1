@@ -29,13 +29,6 @@ public class Inicio extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
-        HttpSession session = request.getSession();
-
-        if ( session.getAttribute("loggedIn") == null ) {
-            session.setAttribute("loggedIn", null);
-            response.sendRedirect("login");
-            return ;
-        }
         request.setAttribute("seccion","inicio" );
         getServletContext().getRequestDispatcher("/views/index.jsp").forward(request , response);
     }

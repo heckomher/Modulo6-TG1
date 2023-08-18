@@ -18,6 +18,7 @@
 </head>
 <body>
 
+<%@include file="../layout/header.jsp" %>
 
 
 <div class="container">
@@ -90,6 +91,7 @@
 </div>
 
 
+<%@include file="../layout/footer.jsp" %>
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
