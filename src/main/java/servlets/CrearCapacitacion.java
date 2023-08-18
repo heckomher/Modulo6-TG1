@@ -5,7 +5,6 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
@@ -26,8 +25,7 @@ public class CrearCapacitacion extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
-        HttpSession session = request.getSession();
-        request.setAttribute("seccion", "capacitacion");
+
         getServletContext().getRequestDispatcher("/views/capacitacion_crear.jsp").forward(request, response);
 
     }

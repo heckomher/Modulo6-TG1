@@ -25,7 +25,7 @@
                                 Capacitaci&oacute;n
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Listado Capacitaci&oacute;n</a></li>
+                                <li><a class="dropdown-item" href="listar-capacitacion">Listado Capacitaci&oacute;n</a></li>
                                 <li><a class="dropdown-item" href="crear-capacitacion">Crear Capacitaci&oacute;n</a></li>
                             </ul>
                         </li>
